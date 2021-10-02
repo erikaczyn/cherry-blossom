@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene fog="type: linear; color: #FFF">
+      <a-entity light="color: #BBB; type: ambient" data-aframe-default-light="" aframe-injected=""></a-entity>
+      <a-entity light="intensity: 0.6; castShadow: true" position="1.49848 5.88211 1.10757"></a-entity>
+      <a-entity camera="active: true" look-controls wasd-controls position="0 1.75 1.8"></a-entity>
+      <a-sky color="#74D4F6"></a-sky>
+      <a-cylinder position="0 0 -3" radius="1.5" height="0.25" color="#7DD18D"></a-cylinder>
+      <!--tree trunk-->
+      <a-cone position="0 0.8 -3" rotation="0 0 -3" radius-bottom="0.25"  radius-top="0.2" height="1.5" color="#773524"></a-cone>
+      <a-cone position="-0.05569 2.04812 -2.74915" rotation="25 0 9" radius-bottom="0.2" radius-top="0.18" height="1.3" color="#773524"></a-cone>
+      <a-cone position="-0.12682 2.78845 -2.49759" rotation="-2 0 -5" radius-bottom="0.18" radius-top="0.17" height="0.5" color="#773524"></a-cone>
+      <a-cone position="0.07535 3.28927 -2.62696" rotation="-20 0 -28" radius-bottom="0.17" radius-top="0.14" height="0.8" color="#773524"></a-cone>
+      <a-cone position="0.58225 4.17696 -2.95257" rotation="-20 8 -32" radius-bottom="0.14" height="1.6" color="#773524"></a-cone>
+      <!--branch-->
+      <a-cone position="0.40639 0.31342 -2.93843" rotation="0 12 -40" radius-bottom="0.06" radius-top="0.04" height="0.6" color="#773524"></a-cone>
+      <a-cone position="0.58175 0.67088 -2.97117" rotation="0 2 0" radius-bottom="0.04" radius-top="0.031" height="0.3" color="#773524"></a-cone>
+      <a-cone position="0.75745 0.87938 -2.94781" rotation="0 -8 -65" radius-bottom="0.031" height="0.4" color="#773524"></a-cone>
+      <!--branch-->
+      <a-cone position="-0.69824 2.70457 -2.41453" rotation="0 10.347617780062668 69.99997270451807" radius-bottom="0.115" radius-top="0.06" height="1.1" color="#773524"></a-cone>
+      <a-cone position="-1.38136 3.11075 -2.38362" rotation="0 7 40" radius-bottom="0.06" radius-top="0.04" height="0.6" color="#773524"></a-cone>
+      <a-cone position="-2.14352 3.37909 -2.29231" rotation="0 7 85" radius-bottom="0.04" height="1.2" color="#773524"></a-cone>
+      <!--branches-->
+      <a-cone position="-0.30248 2.89601 -2.65478" rotation="6.891536359833543 -54.6378 58.06984549430406" radius-bottom="0.06" radius-top="0.028" height="0.6" color="#773524"></a-cone>
+      <a-cone position="-0.49396 4.11457 -2.70269" rotation="1.867269454331353 60.58111951036246 62.078831186834435" radius-bottom="0.04" radius-top="0.024" height="0.6" color="#773524"></a-cone>
+      <a-cone position="1.02017 3.06814 -2.4952" rotation="3.7316741196870513 -19.11788275013018 -94.03727108364149" radius-bottom="0.06" radius-top="0.028" height="0.6" color="#773524"></a-cone>
+      <a-cone position="2.13034 2.78539 -2.28521" rotation="16.34877772626291 144.76179764436841 112.89273916360176" radius-bottom="0.04" height="0.5" color="#773524"></a-cone>
+      <a-cone position="-0.08065 2.81596 -3.00434" rotation="-65.28567596618166 2.5553917662834715 -3.0000070153049903" radius-bottom="0.1" radius-top="0.06" height="0.9" color="#773524"></a-cone>
+      <a-cone position="0.48525 2.8209 -2.98275" rotation="-24.726566606665806 79.34491434310179 -132.64832393971255" radius-bottom="0.04" radius-top="0.031" height="0.5" color="#773524"></a-cone>
+      <!--flowers-->
+      <a-dodecahedron position="0.95455 0.86091 -2.98938" rotation="0 -4 -20" radius="0.25" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-2 3.38324 -2.56975" rotation="0 11 -20" radius="0.45" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-1.21613 2.79307 -2.51741" rotation="0 44 50" radius="0.35" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-0.90073 3.19198 -2.58925" rotation="80 29 -20" radius="0.45" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.05908 3.82043 -2.55133" rotation="80 0 -20" radius="0.63" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.87026 3.44153 -2.94922" rotation="0 11 -20" radius="0.5" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="1.02365 3.84969 -2.51741" rotation="22 40 50" radius="0.58" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="1.02984 4.72436 -3.36332" rotation="-30.79762740387201 -14.859660416717903 -12.264161604775271" radius="0.55" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="1.74472 3.19198 -2.58925" rotation="67.3592102267601 167.36784745125505 119.6840079092874" radius="0.65" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.38702 3.19198 -2.53448" rotation="80 29.000000000000004 -20" radius="0.45" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-0.65816 4.27283 -2.56727" rotation="-1.2719663051904275 92.64612955706386 75.65735797363982" radius="0.2" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-0.69721 3.91995 -3.47058" radius="0.8" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.69254 1.19051 -3.25525" rotation="10.480543988533018 44.73310689704389 58.03088436423516" radius="0.32" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="1.00797 2.65746 -2.68363" rotation="0 56.28107125790564 -20.000237754631645" radius="0.45" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-0.64628 3.25718 -2.88899" rotation="79.99980510293632 63.633838642819484 -20.000237754631645" radius="0.32" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-2.70469 3.19198 -2.73101" rotation="70.94019644632775 -176.97062009764764 136.95753951689144" radius="0.65" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-1.49174 3.14634 -3.21892" rotation="76.91843808072275 -179.9998479605043 160.0001831636678" radius="0.7" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.71597 3.97141 -3.3254" rotation="-4.538398695231251 19.306385864728217 12.727684461036107" radius="0.6" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.46254 2.42984 -2.97697" rotation="0.4325831353237716 44.001439792661834 50.41799414033192" radius="0.42" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.74458 2.12093 -2.64608" rotation="-1.2719663051904275 75.47802218376387 75.65735797363982" radius="0.28" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.24003 2.29952 -2.61712" rotation="1.1923251716672432 31.01821615499738 -46.46057464936332" radius="0.26" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="-1.66322 2.40876 -3.26362" rotation="-1.2719663051904275 103.91735530287741 75.65735797363982" radius="0.28" color="#F685AD"></a-dodecahedron>
+      <a-dodecahedron position="0.10603 2.96115 -3.60348" rotation="-30.79762740387201 54.5553223789716 -12.264161604775273" radius="0.42" color="#F685AD"></a-dodecahedron>
+      <!--flower petals-->
+      <a-cylinder position="0 2 -1" rotation="-24 0 3" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0 2.5 0.01" rotation="-93 0 -14" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.98996 2.46653 -1.70401" rotation="-71.11208378486698 -174.878751187625 -120.68611109297122" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-1.54016 3.70656 -1.37625" rotation="-42.85094054003914 -116.13739915742761 171.91713234459377" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-1.54016 2.4382 -3.74541" rotation="34.00848288778514 6.094552066806567 -9.308272339695353" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.73242 1.75349 -3.18226" rotation="27.271072174841795 61.36492577410144 -61.4852469110789" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="1.95695 2.33874 -4.01684" rotation="25.936653469982108 102.89749042754454 -62.44724304910355" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="3.49659 2.5518 -3.42419" rotation="23.04378956236658 -165.90737803146658 -14.021996120236636" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.48127 4.80557 -2.60872" rotation="33.75007892218114 -120.2455065485156 16.129907848522937" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.48127 4.80557 -2.60872" rotation="33.75007892218114 -120.2455065485156 16.129907848522937" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-3.57218 2.28357 -2.24279" rotation="11.082722631215514 51.04194517922939 -48.22872240513705" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-2.60031 4.31061 -3.80082" rotation="3.2343467535134973 28.380318466215066 -36.46475295551099" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.2959 1.24877 -5.00131" rotation="24.70078350588492 101.98763344887679 -32.18189343690808" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="1.14611 1.65894 -1.88163" rotation="-14.929561267723862 41.201395047857496 -66.74786425935552" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-1.4707 1.29336 -2.84595" rotation="-29.242046990091826 -101.06001477855999 -130.34961726564768" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-2.48601 1.40031 -4.55734" rotation="26.353193787042215 59.5669842129809 -74.75093874174286" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.57229 0.56397 -2.68914" rotation="-31.042853340188 -88.1988311512584 -155.6474227940589" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.9015 0.46351 -3.24439" rotation="-41.356666610337946 21.12266207529293 -22.219876252968454" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.12211 0.12394 -2.28994" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.61569 0.12394 -2.19514" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.36441 0.12394 -2.59371" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="1.11828 0.12394 -2.68568" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.7876 0.12394 -3.01773" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="-0.35701 0.12394 -3.52121" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.46266 0.12394 -3.40245" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0.93379 0.12394 -3.71981" radius="0.03" height="0.005" color="#F685AD"></a-cylinder>
+      <a-cylinder position="0 0 -3" radius="1.5" height="0.25" color="#7DD18D"></a-cylinder>
+    </a-scene>
+  </body>
+</html>
